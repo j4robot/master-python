@@ -26,6 +26,6 @@ data = [
     {'name': 'Steve Rogers', 'age': 25, 'level': 4, 'phone': '+233528052634'}
 ]
 
-print('=====' * 40)
+print('=====' * 20)
 print(remove_duplicates(data))
-print('=====' * 40)
+print('=====' * 20)
