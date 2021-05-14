@@ -29,3 +29,6 @@ data = [
 print('=====' * 20)
 print(remove_duplicates(data))
 print('=====' * 20)
+
+newList = [i for i in range(1,3)]
+print(newList)
