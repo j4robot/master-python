@@ -49,7 +49,6 @@ for f in sorted(set(basket)):
 
 print('--' * 30)
 
-
 '''
 It is sometimes tempting to change a list while you are looping over it; however, it is often simpler and safer
 to create a new list instead.
