@@ -9,7 +9,6 @@ from db import create_tables
 
 app = Flask(__name__)
 
-
 @app.route('/games', methods=["GET"])
 def get_games():
     games = game_controller.get_games()
