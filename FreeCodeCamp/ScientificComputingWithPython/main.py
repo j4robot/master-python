@@ -4,3 +4,7 @@ array = [(x ** 2) for x in raw ]
 
 print(raw)
 print(array)
+
+raw_ = [1, 2, 1, 3, 2, 1, 4, 5]
+
+print(set(raw_))
