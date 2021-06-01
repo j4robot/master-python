@@ -15,5 +15,6 @@ def max_num(a, b, c):
         return c
 
 
-
-print(max_num(5, 1, 3))
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print(max_num(5, 1, 3))
