@@ -18,3 +18,4 @@ def max_num(a, b, c):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print(max_num(5, 1, 3))
+    print(__name__)
