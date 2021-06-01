@@ -19,3 +19,23 @@ def max_num(a, b, c):
 if __name__ == '__main__':
     print(max_num(5, 1, 3))
     print(__name__)
+
+a = float(input('Enter first number: '))
+b = float(input('Enter second number: '))
+c = input('Enter an operator: ')
+
+'''
+This is a comment for the method.
+'''
+def calculate(num_a, num_b, op):
+    if op == '+':
+        return num_a + num_b
+    elif op == '-':
+        return num_a - num_b
+    elif op == '*' or op.lower() == 'x':
+        return num_a * num_b
+    elif op == '/':
+        return num_a / num_b
+
+
+print(calculate(a, b, c))
